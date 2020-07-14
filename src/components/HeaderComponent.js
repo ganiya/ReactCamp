@@ -12,8 +12,7 @@ class Header extends Component {
         };
         this.toggleNav = this.toggleNav.bind(this);
         this.toggleModal = this.toggleModal.bind(this);
-        this.handleLogin = this.handleLogin.bind(this);
-
+        
     }
 toggleNav() {
     this.setState({
@@ -103,7 +102,7 @@ render() {
                         </Form>
                 </ModalBody>
             </Modal>
-.
+
         </React.Fragment>
     );
 }
