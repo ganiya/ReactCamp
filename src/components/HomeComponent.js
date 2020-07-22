@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
+import { FadeTransform } from 'react-animation-components';
 
 
 function RenderCard({ item, isLoading, errMess }) {
@@ -16,23 +17,29 @@ function RenderCard({ item, isLoading, errMess }) {
         );
     }
     return (
-        <Card>
+        <FadeTransform
+            in //boolean
+            transformProps={{
+                exitTransform: 'scale(0.5) translateY(50%)'
+            }}>
+            <Card>
                 <CardImg src={baseUrl + item.image} alt={item.name} />
+                <CardBody>
+                    <CardTitle>{item.name}</CardTitle>
+                    <CardText>{item.description}</CardText>
+                </CardBody>
+            </Card>
+        </FadeTransform>
+    );
+    return (
+        <Card>
+            <CardImg src={item.image} alt={item.name} />
             <CardBody>
                 <CardTitle>{item.name}</CardTitle>
                 <CardText>{item.description}</CardText>
             </CardBody>
         </Card>
     );
-return (
-    <Card>
-        <CardImg src={item.image} alt={item.name} />
-        <CardBody>
-            <CardTitle>{item.name}</CardTitle>
-            <CardText>{item.description}</CardText>
-        </CardBody>
-    </Card>
-);
 }
 function Home(props) {
     return (
@@ -46,11 +53,11 @@ function Home(props) {
                     />
                 </div>
                 <div className="col-md m-1">
-                    <RenderCard 
-                    item={props.promotion}
-                    isLoading={props.promotionLoading}
+                    <RenderCard
+                        item={props.promotion}
+                        isLoading={props.promotionLoading}
                         errMess={props.promotionErrMess}
-                     />
+                    />
                 </div>
                 <div className="col-md m-1">
                     <RenderCard item={props.partner} />
