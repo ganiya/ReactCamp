@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ReactCamp/static/css/main.90f1204c.chunk.css",
+    "main.js": "/ReactCamp/static/js/main.43a4a11e.chunk.js",
+    "main.js.map": "/ReactCamp/static/js/main.43a4a11e.chunk.js.map",
+    "runtime-main.js": "/ReactCamp/static/js/runtime-main.1a39fb49.js",
+    "runtime-main.js.map": "/ReactCamp/static/js/runtime-main.1a39fb49.js.map",
+    "static/css/2.68eade42.chunk.css": "/ReactCamp/static/css/2.68eade42.chunk.css",
+    "static/js/2.cef56abf.chunk.js": "/ReactCamp/static/js/2.cef56abf.chunk.js",
+    "static/js/2.cef56abf.chunk.js.map": "/ReactCamp/static/js/2.cef56abf.chunk.js.map",
+    "index.html": "/ReactCamp/index.html",
+    "precache-manifest.4c94e51fb5587760f64ebd80704e9d2b.js": "/ReactCamp/precache-manifest.4c94e51fb5587760f64ebd80704e9d2b.js",
+    "service-worker.js": "/ReactCamp/service-worker.js",
+    "static/css/2.68eade42.chunk.css.map": "/ReactCamp/static/css/2.68eade42.chunk.css.map",
+    "static/css/main.90f1204c.chunk.css.map": "/ReactCamp/static/css/main.90f1204c.chunk.css.map",
+    "static/js/2.cef56abf.chunk.js.LICENSE.txt": "/ReactCamp/static/js/2.cef56abf.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/ReactCamp/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/index.css": "/ReactCamp/static/media/open-sans-latin-800italic.c62c3eea.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a39fb49.js",
+    "static/css/2.68eade42.chunk.css",
+    "static/js/2.cef56abf.chunk.js",
+    "static/css/main.90f1204c.chunk.css",
+    "static/js/main.43a4a11e.chunk.js"
+  ]
+}
